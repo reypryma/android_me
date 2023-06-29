@@ -57,7 +57,7 @@ public class AndroidMeActivity extends AppCompatActivity {
 
             fragmentManager.beginTransaction().add(R.id.head_container, headPartFragment).commit();
             fragmentManager.beginTransaction().add(R.id.body_container, bodyPartFragment).commit();
-            fragmentManager.beginTransaction().add(R.id.bottom_container, bottomPartFragment).commit();
+            fragmentManager.beginTransaction().add(R.id.leg_container, bottomPartFragment).commit();
             Log.v(TAG, "first instance state ");
         }else {
             Log.v(TAG, "existed instance state ");

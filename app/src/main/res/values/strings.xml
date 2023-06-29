@@ -3,4 +3,5 @@
     <string name="image_head">Image Head</string>
     <string name="body_fragment">Body Fragment</string>
     <string name="bottom_part">Bottom Part</string>
+    <string name="next">Next</string>
 </resources>
